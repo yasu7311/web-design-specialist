@@ -1,3 +1,13 @@
 header {
-  background-image: url("../img/hero.webp");
+  display: flex;
+}
+header .header-logo {
+  width: 161px;
+  height: 17px;
+}
+header .header-nav {
+  display: block;
+}
+header .header-nav a {
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
