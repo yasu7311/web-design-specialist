@@ -22,6 +22,7 @@ header .header-nav .nav-list .header-nav-item {
   font-size: 0.875rem;
   color: #fff;
   letter-spacing: 0.05em;
+  font-weight: bold;
 }
 
 .main-visual {
@@ -30,7 +31,7 @@ header .header-nav .nav-list .header-nav-item {
   z-index: -1;
 }
 .main-visual img {
-  zoom: 1.5;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -53,6 +54,7 @@ header .header-nav .nav-list .header-nav-item {
   margin-bottom: 20px;
   font-size: 4.5rem;
   letter-spacing: 0.05em;
+  font-weight: bold;
 }
 .main-visual .main-container .main-title-text {
   width: 100%;
@@ -66,4 +68,26 @@ header .header-nav .nav-list .header-nav-item {
   padding: 18px 70px;
   border: 1px solid #fff;
   border-radius: 50px;
+}
+.main-visual .main-container .btn a {
+  color: #fff;
+  font-size: 0.94rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.main-visual .main-scroll {
+  display: flex;
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  color: #fff;
+  font-size: 0.75rem;
+  writing-mode: vertical-rl;
+  align-items: center;
+}
+.main-visual .main-scroll .main-scroll-border {
+  height: 80px;
+  width: 1px;
+  background-color: #fff;
+  margin-top: 6px;
 }/*# sourceMappingURL=style.css.map */

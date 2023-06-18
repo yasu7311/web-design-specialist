@@ -20,6 +20,7 @@ header {
         font-size: 0.875rem;
         color: #fff;
         letter-spacing: 0.05em;
+        font-weight: bold;
       }
     }
   }
@@ -30,7 +31,7 @@ header {
   position: relative;
   z-index: -1;
     img {
-      zoom: 1.5;
+      height: 100%;
       object-fit: cover;
       overflow: hidden;
     }
@@ -51,6 +52,7 @@ header {
       margin-bottom: 20px;
       font-size: 4.5rem;
       letter-spacing: 0.05em;
+      font-weight: bold;
     }
     .main-title-text {
       width: 100%;
@@ -64,6 +66,28 @@ header {
       padding: 18px 70px;
       border: 1px solid #fff;
       border-radius: 50px;
+        a {
+          color:#fff;
+          font-size: 0.94rem;
+          font-weight: bold;
+          letter-spacing: 0.05em;
+        }
     }
+  }
+  .main-scroll {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    color: #fff;
+    font-size: 0.75rem;
+    writing-mode: vertical-rl;
+    align-items: center;
+      .main-scroll-border {
+        height: 80px;
+        width: 1px;
+        background-color: #fff;
+        margin-top: 6px;
+      }
   }
 }
