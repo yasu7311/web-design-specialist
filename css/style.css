@@ -26,7 +26,6 @@ header .header-nav .nav-list .header-nav-item {
 }
 header .header-nav .nav-list .animate-link {
   padding-bottom: 10px;
-  text-decoration: none;
   background-image: linear-gradient(90deg, #fff, #fff);
   background-repeat: no-repeat;
   background-position: left bottom;
