@@ -24,6 +24,18 @@ header .header-nav .nav-list .header-nav-item {
   letter-spacing: 0.05em;
   font-weight: bold;
 }
+header .header-nav .nav-list .animate-link {
+  padding-bottom: 10px;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #fff, #fff);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0 1px;
+  transition: background-size 0.6s;
+}
+header .header-nav .nav-list .animate-link:hover {
+  background-size: 100% 1px;
+}
 
 .main-visual {
   height: 768px;
