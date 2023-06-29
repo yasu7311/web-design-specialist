@@ -120,4 +120,21 @@ header .header-nav .nav-list .animate-link:hover {
     transform-origin: bottom;
     transform: scaleY(0);
   }
+}
+
+.news {
+  display: flex;
+  max-width: 950px;
+  width: 100%;
+  margin: 70px auto;
+  padding: 0 15px;
+}
+.news .news-title {
+  display: inline-block;
+}
+.news .news-title .sub-title {
+  font-size: 2.25rem;
+}
+.news .news-list .news-item {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

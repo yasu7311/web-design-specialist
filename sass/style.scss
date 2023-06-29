@@ -121,3 +121,24 @@ header {
       }
   }
 }
+
+.news {
+  display: flex;
+  max-width: 950px;
+  width: 100%;
+  margin: 70px auto;
+  padding: 0 15px;
+  .news-title {
+    display: inline-block;
+    .sub-title {
+      font-size: 2.25rem;
+    }
+  }
+
+  .news-list {
+    // display: flex;
+    .news-item {
+      display: flex;
+    }
+  }
+}
