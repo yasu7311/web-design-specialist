@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "web-design-specialist 2",
+			"path": "."
+		}
+	],
+	"settings": {
+		"dartsass.targetDirectory": "css",
+		"dartsass.outputFormat": "cssonly",
+		"dartsass.sassBinPath": "/path/to/node_modules/sass/sass.js"
+	}
+}
